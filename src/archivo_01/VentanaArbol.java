@@ -20,7 +20,9 @@ import javax.swing.tree.DefaultTreeModel;
  *
  * @author Mauricio Ortiz Ochoa
  */
-public class VentanaArbol extends JFrame{
+
+public class VentanaArbol extends JFrame
+{
 
     private JScrollPane scroll;
     private DefaultTreeModel modeloArbol;
@@ -34,8 +36,6 @@ public class VentanaArbol extends JFrame{
         this.setSize(800,600);
         
         this.iniciaComponentes();
-        //JFileChooser f= new JFileChooser();
-        //f.showOpenDialog(this);
     }
 
     private void iniciaComponentes() 
@@ -53,6 +53,11 @@ public class VentanaArbol extends JFrame{
         this.panelInicial.add(this.scroll);
         this.add(this.panelInicial);
         
+    }
+    
+    public void metodoSuma(int a, int b)
+    {
+        System.out.println(a+b);
     }
 
     private void cargaArbol(File [] rutas, DefaultMutableTreeNode top) 
@@ -76,9 +81,5 @@ public class VentanaArbol extends JFrame{
             
         }
     }
-    
-    
-    
-    
     
 }
