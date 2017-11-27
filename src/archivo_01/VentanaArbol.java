@@ -70,7 +70,7 @@ public class VentanaArbol extends JFrame
         System.out.println(a*b);
     }
     
-    public void metodoDivision(int a, int b)
+    public void metodoDivision(double a, double b)
     {
         System.out.println(a/b);
     }
