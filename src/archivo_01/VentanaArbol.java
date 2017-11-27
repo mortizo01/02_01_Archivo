@@ -59,6 +59,13 @@ public class VentanaArbol extends JFrame
     {
         System.out.println(a+b);
     }
+    
+    public void metodoresta(int a, int b)
+    {
+        System.out.println(a-b);
+    }
+    
+    
 
     private void cargaArbol(File [] rutas, DefaultMutableTreeNode top) 
     {
