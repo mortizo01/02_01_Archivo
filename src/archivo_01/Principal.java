@@ -27,6 +27,7 @@ public class Principal {
       System.out.println("Esta es la línea de prueba que estamos manejando versión 3.0");
       System.out.println("Esta es la línea de prueba que estamos manejando versión 4.0");
       v.metodoSuma(89, 100);
+      v.metodoDivision(85, 85.6);
     }
     
 }
