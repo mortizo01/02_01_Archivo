@@ -23,7 +23,7 @@ public class Principal {
       v.setVisible(true);
       System.out.println("Esta es la línea de prueba que estamos manejando versión 2.0");
       System.out.println("Esta es la línea de prueba que estamos manejando versión 3.0");
-      
+      System.out.println("Esta es la línea de prueba que estamos manejando versión 4.0");
       
     }
     
